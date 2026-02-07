@@ -495,6 +495,11 @@ img {
 
 }
 
+.soc-footer {
+    width: 208px;
+    height: 80px;
+}
+
 .footer-soc-title {
     color: #fff;
     margin-bottom: 16px;
@@ -517,14 +522,11 @@ img {
 
 }
 
+
 .subscribe-form {
+    width: 453px;
 
-    display: block;
 
-}
-
-.soc-footer {
-    margin-right: 80px;
 }
 
 .subscribe-title {
@@ -553,6 +555,18 @@ img {
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: inherit;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.input-subscribe:hover,
+.input-subscribe:focus,
+.input-subscribe:active {
+    border-color: #31D0AA;
 }
 
 .input-subscribe::placeholder {
@@ -574,9 +588,20 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-
     color: #fff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    gap: 16px;
+}
 
+.footer-submit-action:hover,
+.footer-submit-action:focus {
+    background-color: #31D0AA;
+
+}
+
+.icon-footer-submit {
+    fill: #fff;
 }
 
 /* #endregion footer */
