@@ -472,9 +472,13 @@ img {
 
 .container.footer {
     display: flex;
-    justify-content: space-between;
+
     align-items: baseline;
 
+}
+
+.footer-info {
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -526,6 +530,7 @@ img {
 
 .subscribe-form {
     width: 453px;
+    margin-left: auto;
 
 
 }
@@ -667,11 +672,14 @@ img {
     fill: #2e2f42;
     padding: 0;
     line-height: 0;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-
+.close-icon {
+    fill: #2e2f42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .close-popup:hover,
 .close-popup:focus {
