@@ -474,6 +474,7 @@ img {
     display: flex;
     column-gap: 120px;
     align-items: baseline;
+
 }
 
 .footer-logo {
@@ -557,7 +558,7 @@ img {
     background-color: inherit;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
     color: #fff;
@@ -640,7 +641,9 @@ img {
     min-height: 584px;
 
     border-radius: 4px;
-    padding: 24px;
+    padding-bottom: 72px;
+    padding-left: 24px;
+    padding-right: 24px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcfcfc;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -685,7 +688,7 @@ img {
     text-align: center;
     width: 360px;
     margin-bottom: 16px;
-    margin-top: 48px;
+    margin-top: 72px;
 }
 
 .field-wrapper {
@@ -774,8 +777,8 @@ img {
     width: 16px;
     height: 16px;
 
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: transparent;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -796,7 +799,7 @@ img {
 
 .terms-label {
     font-size: 12px;
-    line-height: 1.16;
+    line-height: 1.33;
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: flex;
@@ -817,6 +820,7 @@ img {
     border-radius: 4px;
     padding: 16px 65px;
     height: 56px;
+    min-width: 169px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
     border: none;
